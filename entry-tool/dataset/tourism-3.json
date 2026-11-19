@@ -1,0 +1,117 @@
+{
+  "schema": "tsibble-entry-dataset/v1",
+  "dataset": {
+    "name": "tourism",
+    "object": "tourism",
+    "class": ["tbl_ts", "tbl_df", "tbl", "data.frame"],
+    "key_fields": ["Region", "State", "Purpose"],
+    "index_field": "Quarter",
+    "business_key": ["Region", "State", "Purpose", "Quarter"],
+    "interval": "1Q",
+    "tz": "",
+    "fields": [
+      {
+        "name": "Quarter",
+        "type": "yearquarter"
+      },
+      {
+        "name": "Region",
+        "type": "character"
+      },
+      {
+        "name": "State",
+        "type": "character"
+      },
+      {
+        "name": "Purpose",
+        "type": "character"
+      },
+      {
+        "name": "Trips",
+        "type": "double"
+      }
+    ],
+    "record_count": 3,
+    "source_record_count": 3
+  },
+  "records": [
+    {
+      "ordinal": 1,
+      "fields": {
+        "Quarter": {
+          "t": "yearquarter",
+          "v": "1998 Q1"
+        },
+        "Region": {
+          "t": "character",
+          "v": "Adelaide"
+        },
+        "State": {
+          "t": "character",
+          "v": "South Australia"
+        },
+        "Purpose": {
+          "t": "character",
+          "v": "Business"
+        },
+        "Trips": {
+          "t": "double",
+          "v": "135.0776903",
+          "num": "135.0776903"
+        }
+      }
+    },
+    {
+      "ordinal": 2,
+      "fields": {
+        "Quarter": {
+          "t": "yearquarter",
+          "v": "1998 Q2"
+        },
+        "Region": {
+          "t": "character",
+          "v": "Adelaide"
+        },
+        "State": {
+          "t": "character",
+          "v": "South Australia"
+        },
+        "Purpose": {
+          "t": "character",
+          "v": "Business"
+        },
+        "Trips": {
+          "t": "double",
+          "v": "109.987316",
+          "num": "109.98731600000001"
+        }
+      }
+    },
+    {
+      "ordinal": 3,
+      "fields": {
+        "Quarter": {
+          "t": "yearquarter",
+          "v": "1998 Q3"
+        },
+        "Region": {
+          "t": "character",
+          "v": "Adelaide"
+        },
+        "State": {
+          "t": "character",
+          "v": "South Australia"
+        },
+        "Purpose": {
+          "t": "character",
+          "v": "Business"
+        },
+        "Trips": {
+          "t": "double",
+          "v": "166.0346866",
+          "num": "166.03468659999999"
+        }
+      }
+    }
+  ]
+}

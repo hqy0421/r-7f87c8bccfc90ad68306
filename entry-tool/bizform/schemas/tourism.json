@@ -1,0 +1,41 @@
+{
+  "title": "Domestic Overnight Trips",
+  "dataset": "tourism",
+  "key_fields": [
+    "Region",
+    "State",
+    "Purpose",
+    "Quarter"
+  ],
+  "index_field": "Quarter",
+  "fields": [
+    {
+      "name": "Quarter",
+      "type": "yearquarter",
+      "required": true
+    },
+    {
+      "name": "Region",
+      "type": "character",
+      "required": true
+    },
+    {
+      "name": "State",
+      "type": "character",
+      "required": true
+    },
+    {
+      "name": "Purpose",
+      "type": "character",
+      "required": true
+    },
+    {
+      "name": "Trips",
+      "type": "double"
+    }
+  ],
+  "login": {
+    "username": "operator",
+    "password": "operator"
+  }
+}

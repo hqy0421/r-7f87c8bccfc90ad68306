@@ -1,0 +1,24 @@
+{
+  "base_url": "http://127.0.0.1:8765",
+  "record_id": "tourism",
+  "dataset": "tourism",
+  "key_fields": ["Region", "State", "Purpose"],
+  "index_field": "Quarter",
+  "business_key": ["Region", "State", "Purpose", "Quarter"],
+  "entry_path": "/entry",
+  "query_path": "/query",
+  "timezone": "UTC",
+  "headless": true,
+  "timeouts": {"nav_ms": 15000, "save_ms": 20000, "settle_ms": 1500},
+  "selectors": {
+    "field_input": "#f-{field}",
+    "na_checkbox": "#na-{field}",
+    "save_button": "#btn-save",
+    "query_input": "#q-{field}",
+    "query_na_checkbox": "#qna-{field}",
+    "query_button": "#btn-query",
+    "result_root": "#result"
+  },
+  "user_data_dir": "entry-tool/state/tourism/profile",
+  "state_dir": "entry-tool/state/tourism"
+}

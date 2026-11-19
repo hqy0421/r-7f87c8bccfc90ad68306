@@ -1,0 +1,37 @@
+{
+  "title": "Pedestrian Counts",
+  "dataset": "pedestrian",
+  "key_fields": [
+    "Sensor",
+    "Date_Time"
+  ],
+  "index_field": "Date_Time",
+  "fields": [
+    {
+      "name": "Sensor",
+      "type": "character",
+      "required": true
+    },
+    {
+      "name": "Date_Time",
+      "type": "datetime",
+      "required": true
+    },
+    {
+      "name": "Date",
+      "type": "date"
+    },
+    {
+      "name": "Time",
+      "type": "integer"
+    },
+    {
+      "name": "Count",
+      "type": "integer"
+    }
+  ],
+  "login": {
+    "username": "operator",
+    "password": "operator"
+  }
+}
